@@ -1,0 +1,34 @@
+Download Git para Windows
+https://git-scm.com/download/win
+
+Comandos terminal Windows
+- cd:    Entrar em uma pasta
+- dir:   Lista arquivos e pastas
+- mkdir: Cria um diretório
+- del: 	 Deleta arquivos
+- rmdir: Remove uma pasta.
+
+Comandos basicos Git
+
+- git config
+Quando você está utilizando o Git pela primeira vez ou com uma instalação nova, em um projeto colaborativo, esse comando é fundamental para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada commit.
+
+$ git config –global user.name “Seu nome”
+$ git config –global user.email “Seu email”
+
+-  git init
+O comando que você irá utilizar para criar um novo projeto de git. O comando irá criar um repositório novo em branco e, a partir daí, será possível armazenar seu código fonte, alterar, salvaguardar alterações etc.
+
+- git clone
+O comando cria uma cópia de um repositório já existente.
+
+- git add 
+O comado adiciona os arquivos especificados de código ao seu repositório, sejam arquivos novos ou arquivos anteriores que foram alterados.
+
+$ git add nome_do_arquivo (esse comando irá adicionar o arquivo em específico ao repositório)
+$ git add * (esse comando irá adicionar todos os arquivos novos e/ou modificados ao repositório)
+
+- git commit
+Executa o commit dos arquivos que foram adicionados
+
+
